@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cf3009e7cc.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    
+<title>car consultancy</title>
+</head>
+<body>
+    <!-- NAV & BACKGROUND IMAGE -->
+    <div class="back-img container-fluid">
+        <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./Auto-super-car-logo-in-simple-red-line-Graphics-5678610-1-removebg-preview.png" alt="Bootstrap" width="150" height="110">
+              </a>
+          
+              <nav class="navbar navbar-expand-lg mb-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-dark fs-5 text-uppercase top-nav-hov" id="home" href="#">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark fs-5 text-uppercase top-nav-hov" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Collection
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item text-uppercase" href="https://www.autocarpro.in/analysis-sales/ev-sales-in-india-rise-41-in-april-2023-to-over-109000-units-114897" target="_blank">Electric</a></li>
+                          <li><a class="dropdown-item text-uppercase" href="https://www.indusmotor.com/cars/grand-vitara?utm_source=gvppc&utm_medium=gvppc&utm_campaign=gvppc&gad=1&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFlyYw1j1LQkD_yxc10fpwkFODtJwdpEVpNkElanMBLo2ftl89ovMlhoCgxAQAvD_BwE" target="_blank">Hybrid</a></li>
+                          <li><a class="dropdown-item text-uppercase" href="https://www.autocarindia.com/cars/petrol-cars-in-india" target="_blank">Petrol</a></li>
+                          <li><a class="dropdown-item text-uppercase" href="https://www.autocarindia.com/cars/diesel-cars-in-india" target="_blank">Diesel</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-dark fs-5 text-uppercase" aria-current="page" href="https://www.autocarindia.com/cars" target="_blank">Service</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link text-dark fs-5 text-uppercase" href="#feedback-id">Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark fs-5 text-uppercase" href="#support">Support</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark fs-5 text-uppercase" href="#about">About</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          
+            </div>
+          </nav>
+
+<!-- content in bg image -->
+          <div class="row mt-5">
+            <div class="col-6"></div>
+            <div class="col-6">
+              <h1 class="text-center fs-1"><b>What we </b><br><span class="bg-text-1">drive says </span><br><b>A lot about </b><br><span class="bg-text-2">who we are </span></h1>
+            </div>
+          </div>
+<!-- ENQUIRY BUTTON -->
+          <div class="text-center mt-5 pt-5 pb-5"><button type="button" class="btn enquiry" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">ENQUIRY</button>
+          </div>
+<!--ENQUIRY BUTTON FORM  -->
+          <div class="modal fade  container-fluid" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog container-fluid">
+              <div class="modal-content container-fluid">
+                  
+                <div class="modal-header container-fluid">
+                  <h5 class="modal-title ps-5 ms-3" id="exampleModalLabel">PLEASE SHARE YOUR DETAILS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+      
+                <div class="modal-body container-fluid">
+                  <form>
+                    <div class="mb-3 container-fluid">
+                      <label for="recipient-name" class="col-form-label">Name:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+      
+                    <div class="mb-3 container-fluid">
+                      <label for="recipient-name" class="col-form-label">E-mail:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+      
+                    <div class="mb-3 container-fluid">
+                      <label for="message-text" class="col-form-label">Your Message</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+      
+                    <div class="mb-3 container-fluid">
+                      <label for="recipient-name" class="col-form-label">Phone Number:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                  </form>
+                </div>
+      
+                <div class="modal-footer container-fluid">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                  <button type="button" class="btn btn-primary">SUBMIT</button>
+                </div>
+              </div>
+            </div>
+          </div>    
+<!--ENQUIRY BUTTON FORM ENDS  -->
+
+
+
+      </div>
+<!-- NAV & BACKGROUND IMAGE ENDS -->
+
+
+<!-- section 2 heading -->
+    <div>
+        <h2 class="text-center mt-4 fw-bold fs-1">SHOWROOM COLLECTIONS</h2>
+    </div>
+<!-- section 2 heading ends-->
+
+
+
+<!-- CARDS -->
+    <div class="row mt-3 text-center container-fluid pt-2 ms-2">
+       <div class="col-sm-3 mb-3 mb-sm-0  card-co">
+        <div class="border border-dark-subtle rounded">
+            <div><img class="img-fluid" src="https://imgd-ct.aeplcdn.com/1056x660/n/2rajh4a_1520461.jpg?q=75" class="card-img-top" alt="..."></div>
+           <div class="mb-3">
+              <h5 class="card-title fw-bold">TATA MOTORS</h5>
+              <p class="card-text fw-bold">A car in your dream can have many spiritual implications. It is a sign of freedom, movement, and success. Seeing a car in your dream symbolizes your body, mind, and emotions.</p><a href="https://cars.tatamotors.com/click-to-drive" class="btn btn-primary" target="_blank">BOOK NOW</a>
+           </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 mb-3 card-co">
+       <div class="border border-dark-subtle rounded">
+            <div><img class="img-fluid mb-4" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/139739/land-cruiser-exterior-right-front-three-quarter.jpeg?isig=0" class="card-img-top" alt="..."></div>
+           <div class="mb-3">
+               <h5 class="card-title fw-bold">TOYOTA</h5>
+               <p class="card-text fw-bold">A car in your dream can have many spiritual implications. It is a sign of freedom, movement, and success. Seeing a car in your dream symbolizes your body, mind, and emotions.</p><a href="https://www.toyotabharat.com/" class="btn btn-primary" target="_blank">BOOK NOW</a>
+           </div>
+       </div>
+    </div>
+
+
+    <div class="col-sm-3 mb-3 card-co">
+      <div class="border border-dark-subtle rounded">
+            <div><img class="img-fluid mb-4" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/144689/taigun-exterior-right-front-three-quarter.jpeg?isig=0" class="card-img-top" alt="..."></div>
+           <div class="mb-3">
+               <h5 class="card-title fw-bold">VOLKS WAGEN</h5>
+               <p class="card-text fw-bold">A car in your dream can have many spiritual implications. It is a sign of freedom, movement, and success. Seeing a car in your dream symbolizes your body, mind, and emotions.</p><a href="https://www.volkswagen.co.in/app/site/online-booking/" class="btn btn-primary" target="_blank">BOOK NOW</a>
+           </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-sm-3 mb-3 card-co">
+        <div class="border border-dark-subtle rounded">
+            <div><img class="img-fluid mb-4" src="https://imgd.aeplcdn.com/0x0/n/jaa8dab_1650931.jpg" class="card-img-top" alt="..."></div>
+           <div class="mb-3">
+               <h5 class="card-title fw-bold">KIA</h5>
+               <p class="card-text fw-bold">A car in your dream can have many spiritual implications. It is a sign of freedom, movement, and success. Seeing a car in your dream symbolizes your body, mind, and emotions.</p><a href="https://www.kia.com/in/buy/how-it-works.html" class="btn btn-primary" target="_blank">BOOK NOW</a>
+           </div>
+        </div>
+     </div>
+    </div>
+<!-- cards ends -->
+
+
+<!-- more collection -->
+<div class="shwrm-collection mt-4 mb-4 text-center container-fluid"><a href="https://www.zigwheels.com/dealers" class="btn btn-dark fw-bold" target="_blank">MORE SHOWROOM COLLECTIONS</a>
+</div>
+<!-- more collection ENDS-->
+
+
+<!--HEADING AND CAROUSAL SLIDE SHOW  -->
+<!-- head -->
+<div class="text-center fs-1 container-fluid">
+    <h3 class="special-ef fw-bold">SPECIAL EDITION AND SPECIAL OFFERS</h3>
+</div>
+<!-- carousal slides -->
+<div id="carouselExampleCaptions" class="carousel slide mt-5 ms-3 me-3 container-fluid">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://electrek.co/wp-content/uploads/sites/3/2016/10/2017-toyota-prius-prime-premium-front-three-quarter-05-e1475540529593.jpg?quality=82&strip=all&w=1600" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TOYOTA HYBRID CARS & SUVS</h5>
+          <p>Toyota opens patents to help save hybrid cars, but it won't work | Electrek</p>
+          <a href="https://www.toyotabharat.com/hybrid-technology/" class="btn btn-dark fw-bold" target="_blank">MORE DETAILS</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://www.jeep-india.com/content/dam/cross-regional/apac/jeep/en_in/meridian-special-edition/Top-Banner-UL-1.jpg.img.1440.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>JEEP</h5>
+          <p>Jeep Meridian Special Edition - Meridian X & Meridian Upland</p>
+          <a href="https://www.jeep-india.com/meridian-special-edition.html#:~:text=Jeep%C2%AE%20Meridian%20X&text=The%20Meridian%20X%20offers%20stylish,Available%20in%20Silvery%20Moon!" class="btn btn-dark fw-bold" target="_blank">MORE DETAILS</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://gaadiwaadi.com/wp-content/uploads/2017/03/Land-Rover-Discovery-Rescue-SUV-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LAND ROVER</h5>
+          <p>Limited Edition Land Rover Models Under 'Project' Banner in the Pipeline</p>
+          <a href="https://www.landrover.in/range-rover/new-range-rover-sport/models/index.html" class="btn btn-dark fw-bold" target="_blank">MORE DETAILS</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--HEADING AND CAROUSAL SLIDE SHOW ENDS cc-->
+
+
+<!--VIDEO EMBEDD AND PHOTOS -->
+<div class="row video-embedd&photos ms-1 mt-3 container-fluid">
+
+    <!-- video -->
+    <div class="col-6 video-embedd">
+        <div class="ratio ratio-4x3 mt-2">
+            <iframe src="https://www.youtube.com/embed/ru_fnP7EZek" title="YouTube video" allowfullscreen></iframe>
+          </div>
+    </div>
+
+    
+
+    <!-- photos  https://www.youtube.com/embed/ru_fnP7EZek -->
+    <div class="col-6 photo-colln text-center">
+        <img class="coll-img img-fluid" src="https://hips.hearstapps.com/hmg-prod/images/c8-collage-01-1563553629.jpg?crop=0.502xw:1.00xh;0,0&resize=1200:*" alt="">
+    </div>
+
+</div>
+<!--VIDEO EMBEDD AND PHOTOS ENDS-->
+<hr>
+
+<!-- INDIAN COLLECTIONS -->
+<div class="indian-colln container-fluid">
+
+    <div class="mt-4 text-center">
+        <h4 class="indian fs-1 fw-bold">BEST INDIAN COLLECTIONS</h4>
+    </div>
+
+
+<!-- CARDS IMAGES AND HOVER IN INDIAN COLLECTION -->
+    <div class="row text-center mt-4 ms-1 me-2 container-fluid">
+      <div class="col-sm-3 mb-3 md  hover-div text-center border rounded container-fluid"><img class="img-fluid img-hover" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Maruti-Swift-2018/6181/1561977061715/front-left-side-47.jpg" alt="">
+
+        <div class="overlay container-fluid">
+            <div class="text container fs-5 text-center"><h5>SUZUKI</h5>Limited Bookings <br>Available<br><a class="btn btn-dark" href="https://www.marutisuzuki.com/book-showroom-visit?utm_source=google&utm_medium=cpc&utm_campaign=13719793102&utm_term=maruti%20swift&utm_content=c&gclid=CjwKCAjwhJukBhBPEiwAniIcNbPCuBCmH76r3r4Dsi60Mrg8wEI58o8CSm9y-PjQFT3yXF4NI1nphxoCDpcQAvD_BwE" target="_blank" role="button">BOOK NOW</a></div>
+         </div>
+
+    </div>
+
+
+
+
+      <div class="col-sm-3 mb-3 hover-div text-center border rounded container-fluid"><img class="img-fluid img-hover" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Chevrolet/Chevrolet-Beat/84/1560334401858/front-left-side-47.jpg" alt="">
+
+         <div class="overlay container-fluid">
+            <div class="text container fs-5 text-center"><h5>CHEVROLET</h5>Limited Bookings <br>Available<br><a class="btn btn-dark" href="https://www.chevrolet.co.in/" target="_blank" role="button">BOOK NOW</a></div>
+         </div>
+
+      </div>
+
+
+
+
+      <div class="col-sm-3 mb-3 hover-div text-center border rounded container-fluid"><img class="img-fluid img-hover" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/140809/innova-crysta-exterior-right-front-three-quarter.png?isig=0" alt="">
+
+        <div class="overlay container-fluid">
+            <div class="text container fs-5 text-center"><h5>TOYOTA</h5>Limited Bookings <br>Available<br><a class="btn btn-dark" href="https://www.toyotabharat.com/campaign/innova-crysta/?utm_campaign=innovaao&utm_source=google&utm_medium=cpc&utm_term=keyword&utm_content=textad&agency_code=HAKXX&gclid=CjwKCAjwhJukBhBPEiwAniIcNRJ01_gsi-wNa7cJKEimK6GHV49qwCD6hECQxB6YdyCHxLCsiIlOixoCsRoQAvD_BwE" target="_blank" role="button">BOOK NOW</a></div>
+         </div>
+
+    </div>
+
+
+
+
+      <div class="col-sm-3 mb-3 hover-div text-center border rounded container-fluid"><img class="img-fluid img-hover" src="https://www.grouplandmark.in/wp-content/uploads/2021/09/Honda-Amaze-2022.jpg" alt="">
+
+        <div class="overlay container-fluid">
+            <div class="text container fs-5 text-center"><h5>HONDA</h5>Limited Bookings <br>Available<br><a class="btn btn-dark" href="https://www.visionhonda.com/booking/honda-all-new-amaze?gclid=CjwKCAjwhJukBhBPEiwAniIcNapDLR8IF5TXMk76hKwj3jWKg80tDvCvXf48if-ZTOhkz8r4UbVPCBoCWQIQAvD_BwE" target="_blank" role="button">BOOK NOW</a></div>
+         </div>
+    
+    </div>
+<!-- CARDS IMAGES AND HOVER IN INDIAN COLLECTION ENDS-->
+   
+
+
+  </div>
+    
+</div>
+<!-- INDIAN COLLECTIONS ENDS cc-->
+<br><br><hr>
+
+<!--PREMIUM COLLECTIONS -->
+<div class="premium container-fluid">
+    <div class="premium-text text-center">
+        <!-- HEAD -->
+        <h2 class="text-center mt-5 pt-2 fw-bold container-fluid">OUR <span class="pre-text">PREMIUM</span> COLLECTION</h2><br>
+        <label class="fs-3 mb-2 dream-true" for="text">We Will Make Your Dreams Comes True</label>
+    </div>
+        <!-- ROW &COLUM -->
+    <div class="row mt-3 text-center container-fluid"> 
+
+        <div class="col-sm-3 mb-3 sm-0 text-center border border-dark-subtle rounded container-fluid luxury-bg">
+           <img class="img-fluid luxury mt-1" src="https://jerry-uploads-prod.s3.amazonaws.com/payload-cms/collections/media/1662521492628_2022_Lexus_LC500_Bespoke_004-1500x843.jpg.jpeg" alt="">
+
+           <div class="premium-div-link">
+            <h4>LEXUS</h4>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover mt-1" href="https://www.lexus.com/" target="_blank">FEATURES</a>
+           </div>
+        </div>
+
+
+
+        <div class="col-sm-3 mb-3 text-center border border-dark-subtle rounded container-fluid luxury-bg">
+            <img class="img-fluid luxury mt-1" src="https://imgd.aeplcdn.com/600x337/cw/ec/28085/Land-Rover-Range-Rover-Velar-Exterior-114227.jpg?wm=0&q=75" alt="">
+
+            <div class="premium-div-link">
+                <h4>LAND ROVER</h4>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover mt-1" href="https://media.landrover.com/en" target="_blank">FEATURES</a>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-3 mb-3 text-center border border-dark-subtle rounded container-fluid luxury-bg">
+            <img class="img-fluid luxury mt-1" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/45390/gls-exterior-right-front-three-quarter-2.jpeg" alt="">
+
+            <div class="premium-div-link">
+                <h4>BENZ</h4>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover mt-1" href="https://www.mercedes-benz.com/en/" target="_blank">FEATURES</a>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-3 mb-3 text-center border border-dark-subtle rounded container-fluid luxury-bg">
+            <img class="img-fluid luxury mt-1" src="https://imgd.aeplcdn.com/0x0/cw/ec/34427/RollsRoyce-Cullinan-Exterior-158729.jpg?wm=0" alt="">
+
+            <div class="premium-div-link">
+                <h4>ROLLS ROYS</h4>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover mt-1" href="https://www.rolls-roycemotorcars.com/en_GB/home.html" target="_blank">FEATURES</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--PREMIUM COLLECTIONS ENDS-->
+
+<!-- CUSTOMER FEEDBACK -->
+ <div class="fw-bold fs-2 text-center mt-4 pt-3"><span class="feedback" id="feedback-id">CUSTOMER FEEDBACKS</span></div>
+
+ <div class="feedback-content ms-3 border rounded">
+  
+  <div class="row">
+
+    <div class="col-sm-3 mb-3 mt-2 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+         <div class="fe-img text-center"> <img class="feed-img img-fluid" src="https://i.pinimg.com/736x/71/f0/47/71f047f6d01918bdafa33a121f8934c3.jpg" alt="img"></div>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+            <h5>Star Rating</h5>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-3 mt-2 mb-3 ">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <div class="fe-img text-center"><img class="feed-img img-fluid" src="https://helios-i.mashable.com/imagery/articles/03iEk1BdPGYNbWoYfzFREgJ/hero-image.fill.size_1200x1200.v1667595425.jpg" alt="img"></div>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+            <h5>Star Rating</h5>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mt-2 mb-3 ">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <div class="fe-img text-center"><img class="feed-img img-fluid" src="https://st.depositphotos.com/1008939/4747/i/600/depositphotos_47475519-stock-photo-smiley-nice-girl.jpg" alt="img"></div>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+            <h5>Star Rating</h5>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mt-2 mb-3 ">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <div class="fe-img text-center"><img class="feed-img img-fluid" src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww&w=1000&q=80" alt="img"></div>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+            <h5>Star Rating</h5>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+ </div>
+<!-- CUSTOMER FEEDBACK ENDS-->
+
+<!-- FOOTER BAR -->
+<div class="pt-4 footer-color mt-5">
+  <div class="row">
+    <div class="col-4 text-center text-light" id="about"><span>ABOUT US</span> <p class="ps-4 text-light">Our consultants are responsible for many aspects of the vehicle sales process which includes arranging for test drives and matching customers with the right vehicles.</p></div>
+
+
+    <div class="col-4 text-center text-light"><span>SOCIAL MEDIA</span> <br>
+      <div class="row mt-3">
+        <div class="col-3 fs-2"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+        <div class="col-3 fs-2"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+        <div class="col-3 fs-2"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+        <div class="col-3 fs-2"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></div>
+      </div>
+      
+    </div>
+
+
+    <div class="col-4 text-center text-light" id="support"><span>SUPPORT</span><br><span class="home-a"><h6><a class="home-b-link" href="#home">Home</a></h6></span>
+      <span><label>E-mail :</label>  autocarscenter@gmail.com</span><br><span>Phone : <label for=""> +11 73247890340</label></span>
+    </div>
+
+
+  </div>
+  <div class="ft-auto mt-1 text-center pb-3"><h5><span class="auto">AUTO</span> <span class="cars">CARS</span></h5></div>
+</div>
+<!-- FOOTER BAR ENDS-->
+</body>
+</html>

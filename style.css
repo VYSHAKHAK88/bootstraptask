@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-text-1,.bg-text-2{
+    font-family: 'Dancing Script', cursive;
+}
+/* .viewport {
+  background: url(https://hyperlnk.regulus.uberspace.de/pics/freedom.jpg);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+} */
+
+.back-img {
+    background: url(./CAR2.jpg) no-repeat center; 
+    background-size: cover;
+    height:auto;
+    width: auto;
+    position: relative;
+    background-position: center center;
+}
+
+
+  .col-6 h1,.bg-text-1,.bg-text-2,b{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #10035b;
+  }
+  .shwrm-collection a:hover{
+    background-color: rgb(24, 126, 6);
+  }
+  
+
+  .card-co{
+    transition: transform .2s;
+  }
+  .card-co:hover{
+    transform: scale(1.05);
+  }
+  .special-ef{
+    font-size: 2.5rem;
+  }
+  .coll-img{
+    width: 90%;
+    height:85% ;
+  }
+
+
+
+
+  /* OVERLAY */
+  .hover-div {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 2%;
+  }
+  
+  .hover-div:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* OVERLAY HOVER ENDS */
+
+.premium-text h2{
+    color: #0e0444;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.premium-div-link a:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+
+.luxury{
+    
+    border-radius: 70%;
+    transition: transform .2s;
+
+}
+.luxury:hover{
+  transform: scale(1.05);
+}
+
+.luxury-bg{
+    background-color: rgb(215, 213, 213);
+}
+
+.indian{
+  font-family: 'Oswald', sans-serif;
+}
+.dream-true{
+  color: rgb(34, 101, 0);
+  font-family: cursive;
+}
+.pre-text{
+  color: rgb(94, 77, 4);
+}
+
+.enquiry:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.enquiry{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.checked {
+  color: rgb(227, 182, 97);
+}
+
+.feed-img {
+  width: 90%;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.up-icon i{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: #0e0444 solid;
+  height: 2rem;
+  padding: 0.25rem;
+  position: fixed;
+}
+
+.feedback-content{
+  background-color: rgb(46, 45, 45);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.footer-color{
+  background-color: black;
+}
+
+.home-b-link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.auto{
+  color: rgb(169, 25, 9);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.auto:hover{
+  font-size: 1.7rem;
+}
+
+.cars{
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.cars:hover{
+font-size: 1.7rem;
+}
+
